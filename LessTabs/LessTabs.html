@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <style type="text/css">
+        a {
+            text-decoration: none;
+            /*去掉下划线*/
+            color: blue;/*可以避免访问后link变色的问题*/
+           white-space: nowrap;/*suppresses line breaks (text wrapping) within the source.*/
+            font-family: -apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;
+            font-size: 1.2em;
+        }
+
+        ol{
+        	padding: 1em;/*为了去除ol默认的padding-inline-start: 40px;*/
+        }
+        li {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            line-height: 2.5em;/*增加li间距*/
+        }
+
+        li:hover {
+            text-decoration: underline;
+            /*去掉下划线*/
+        }
+
+
+        li #deleteButton {
+            visibility: hidden;
+            /*不用display none是因为visibility隐藏后可以保留空白，也不至于不会缩闪*/
+        }
+
+        li:hover #deleteButton {
+            visibility: visible;
+        }
+li img {
+            margin-right: 1em;
+            /*是为了在li左边的两个icon之间留出间距*/
+           }
+        #deleteButton:hover {
+            cursor: pointer;
+        }
+        .pageEntry{
+            text-align: right;/*2个链接右居中*/
+        }
+
+		#bookmarkManagerEntry{
+		margin-right: 2em;/*2个链接留间隙*/
+		cursor: pointer;/*不能设href（否则点击的时候打开当前页），所以为了改变cursor故如此*/
+		}
+
+
+    </style>
+    <title>LessTabs</title>
+</head>
+
+<body>
+        <section class = "pageEntry">
+                <a  target="_blank" id="bookmarkManagerEntry">Search & Manage</a>
+				<a target="_blank" id="feedbackEntry">Feedback & Homepage</a>
+        </section>
+
+    <ol id='bookmarkList'>
+    </ol>
+
+    <script src="LessTabs.js" type="text/javascript"></script>
+
+</body>
+
+</html>

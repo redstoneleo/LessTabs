@@ -1,0 +1,35 @@
+{
+  "extName": {
+  "message": "LessTabs",
+  "description": "软件名称"
+},
+"extensionIconTooltip": {
+  "message": "点击查看所有功能",
+  "description": "增强组件的用法提示"
+},
+"extensionDescription": {
+  "message": "把浏览器标签送入书签文件夹'LessTabs'并关闭，减轻标签太多的烦恼",
+  "description": "增强组件的简介"
+},
+"current": {
+  "message": "当前标签送入LessTabs",
+  "description": "把当前标签送入LessTabs"
+},
+"all": {
+  "message": "全部标签送入LessTabs",
+  "description": "把全部标签送入LessTabs"
+},
+"show": {
+  "message": "查看存入LessTabs的标签",
+  "description": "查看存入LessTabs的标签"
+},
+"feedbackEntryName": {
+  "message": "反馈 & 关于",
+  "description": "超链接  反馈 & 关于"
+},
+"bookmarkManagerEntryName": {
+  "message": "搜索 & 管理",
+  "description": "超链接到 书签管理器"
+}
+
+}

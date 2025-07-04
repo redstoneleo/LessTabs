@@ -10,11 +10,7 @@
   "description": "__MSG_extensionDescription__",
 "permissions": [
   "bookmarks",
-  "contextMenus",
   "tabs"
-],
-"host_permissions": [
-  "<all_urls>"
 ],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'; img-src chrome://favicon; child-src chrome://bookmarks"
@@ -26,5 +22,6 @@
   "icons": {
     "16": "logo.png",
     "128": "logo.png"
-  }
+  },
+  "homepage_url":"https://quickbird2.blogspot.com/2019/12/LessTabs.html"
 }
